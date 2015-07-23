@@ -29,7 +29,21 @@
 	<hr />
 	<br class="clear" />
 
+<div class="container">
 <%= yield %>
+</div>
+
+<footer class="footer">
+  <div class="container">
+      <div class="col-xs-6">
+        <%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        For more wise advice fro the wisest of wise men, check out a bunch of Gary Busey quotes <a href="http://nlcatp.org/17-famous-gary-busey-quotes/">here</a>
+      </div>
+  </div>
+</footer>
+
 
 </body>
 </html>
